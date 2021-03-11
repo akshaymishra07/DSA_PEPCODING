@@ -10,13 +10,13 @@ import java.util.Scanner;
 
 public class ReverseArray {
 
-    public static void printArray(int arr[]){
+    public static void printArray(int[] arr){
         for(int item : arr){
             System.out.print(item+" ");
         }
     }
 
-    public static void reverseArray(int arr[]){
+    public static void reverseArray(int[] arr){
         int start = 0;
         int end = arr.length-1;
 
@@ -34,7 +34,7 @@ public class ReverseArray {
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
 
-        int arr[] = new int[n];
+        int[] arr = new int[n];
 
         for (int i = 0 ; i < n ; i++){
             arr[i] = kb.nextInt();
